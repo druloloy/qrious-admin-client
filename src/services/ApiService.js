@@ -2,7 +2,7 @@ import axios from 'axios';
 import TokenService from './TokenService'
 
 const instance = axios.create({
-    baseURL: 'http://localhost:5000/api/v1/',
+    baseURL: 'https://qrious-admin.up.railway.app/api/v1/',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json',
